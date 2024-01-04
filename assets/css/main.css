@@ -1,0 +1,153 @@
+.CV{
+    width: 800px ;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row ;
+}
+.CV--information{
+    flex:1;
+}
+.CV--achievement{
+    background-color: var(--white-color);
+    flex:2;
+    margin: 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.CV--info--img{
+    margin: 15px auto;
+    width: 100%;
+}
+.img-nvt{
+    margin: 5px;
+    width: 97%;
+    border: 2px solid var(--highlight-color);
+}
+
+.info--myself{
+    color: var(--white-color);
+    margin-top: 20px;
+}
+.info--myself--title{
+    font-weight: 800;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.info--list{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.info--item{
+    font-size: 13px;
+    color: var(--white-color);
+    margin-bottom: 8px;
+}
+.link--fb{
+    text-decoration: none;
+    color: var(--white-color);
+}
+.info--item-hover:hover{
+    color: rgba(255, 255, 255, 0.8);
+}
+.skill--header{
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+.skill--header--list{
+}
+.skill--header--item{
+    font-size: 13px;
+    color: var(--white-color);
+}
+
+
+.achievement-header{
+    margin-left: 20px;
+    font-weight: 900;
+}
+.header-name{
+    font-size: 28px;
+}
+.header-code{
+    font-size: 25px;
+}
+
+.content{
+
+}
+.content-header{
+    margin-top: 25px;
+    padding-left: 20px;
+    min-width: 20px;
+    border-bottom: 2px solid var(--highlight-color);
+    font-weight: 700;
+    font-size: 18px;
+}
+.content-text{
+    margin: 10px 10px 20px 20px;
+    font-size: 12px;
+}
+.text--a{
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+.content-advantage--item{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 40px;
+}
+.content-evaluate{
+    height: 15px;
+    width: 350px;
+    border-radius: 5px;
+    border: 2px solid var(--highlight-color);
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.content-evaluate--child{
+    height: 100%;
+    border-radius: 5px;
+    background-color: var(--black-color);
+}
+.content-evaluate--child1{
+    
+    width: 85%;
+}
+.content-evaluate--child2{
+    
+    width: 95%;
+}
+.content-evaluate--child3{
+    
+    width: 100%;
+}
+.child-text{
+    /* color: var(--white-color); */
+    margin-left:100%;
+    margin-bottom: 2px;
+    font-size: 10px;
+    box-sizing: inherit ;
+    margin-left: -10%;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.text-link{
+    font-size: 14px;
+}
+p{
+    margin: 10px 20px;
+    font-size: 14px;
+}
+.effect-message{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.content-description{
+    font-size: 14px;
+}

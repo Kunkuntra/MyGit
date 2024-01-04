@@ -1,0 +1,15 @@
+:root{
+    --text-color: #333;
+    --white-color: #fff;
+    --black-color: #000;
+    --main-color: #573d3d;
+    --highlight-color:rgb(161, 226, 224);
+}
+*{
+    box-sizing: inherit ;
+}
+html{
+    font-size: 62.5%;
+    line-height: 2rem;
+    box-sizing: border-box;
+}
